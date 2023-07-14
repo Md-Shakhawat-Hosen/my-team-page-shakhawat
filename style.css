@@ -80,7 +80,7 @@
 
 .all-images{
     display: grid;
-    grid-template-columns: repeat(3,400px);
+    grid-template-columns: repeat(3,300px);
   align-items: center;
   justify-content: center;
     /* gap: 20px; */
