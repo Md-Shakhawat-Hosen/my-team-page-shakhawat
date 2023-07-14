@@ -1,0 +1,112 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.shu{
+    writing-mode: vertical-rl;text-orientation: mixed;
+    position: relative;
+    bottom: 0px;
+    left: 180px;
+}
+
+.new{
+    writing-mode: vertical-rl;text-orientation: mixed;
+    position: relative;
+    bottom: -115px;
+    left: 180px;
+}
+
+.image-1{
+     background-image: url('./images/photo1.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     /* background-position: bottom left; */
+     height: 280px;
+     width: 250px;
+   
+}
+.image-2{
+     background-image: url('./images/photo2.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     background-position: bottom left;
+     height: 400px;
+    width: 250px;
+    
+}
+.image-3{
+     background-image: url('./images/photo3.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     /* background-position: bottom left; */
+     height: 280px;
+     width: 250px;
+    
+}
+
+.image-4{
+     background-image: url('./images/photo4.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     /* background-position: bottom left; */
+     height: 280px;
+     width: 250px;
+    
+}
+.image-5{
+     background-image: url('./images/photo5.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     background-position: bottom left;
+     height: 400px;
+    width: 250px;
+  
+}
+.image-6{
+     background-image: url('./images/photo6.png');
+     background-size: 200px;
+     background-repeat: no-repeat;
+     /* background-position: bottom left; */
+     height: 280px;
+     width: 250px;
+}
+
+
+
+
+.all-images{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+  align-items: center;
+  justify-content: center;
+    /* gap: 20px; */
+    
+}
+.foot{
+    text-align: center;
+    margin-top: 115px;
+}
+
+@media screen and (max-width:576px) {
+    .all-images{
+     /* display: grid;
+     grid-template-columns: repeat(2,100px);
+     justify-content: space-between; */
+     display: flex;
+     flex-wrap: wrap;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+
+
+}
