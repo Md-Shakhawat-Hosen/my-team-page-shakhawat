@@ -93,11 +93,11 @@
 
 @media screen and (max-width:576px) {
     .all-images{
-     /* display: grid;
-     grid-template-columns: repeat(2,100px);
-     justify-content: space-between; */
-     display: flex;
-     flex-wrap: wrap;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     /* justify-content: space-between; */
+     /* display: flex;
+     flex-wrap: wrap; */
 }
 
 
@@ -108,5 +108,10 @@
 }
 
 
-
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+     .all-images{
+        display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
 }
